@@ -29,6 +29,15 @@ class MainActivity : AppCompatActivity() {
     fun clearSc(view: View){
         input?.text=""
     }
+
+    fun deleteDigit(view: View) {
+        val currentText = input?.text?.toString() ?: ""
+
+        if (currentText.isNotEmpty()) {
+            val newText = currentText.substring(0, currentText.length - 1)
+            input?.text = newText
+        }
+    }
     fun onDecimal(view: View){
         if(!lastDot && lastNumber && !alreadyDecimal){
             input?.append(".")

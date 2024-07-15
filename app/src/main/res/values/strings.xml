@@ -15,6 +15,7 @@
     <string name="subtract_symbol">-</string>
     <string name="_0">0</string>
     <string name="clr">CLR</string>
+    <string name="del">DEL</string>
     <string name="equals_symbol">=</string>
     <string name="add_symbol">+</string>
     <string name="dot">.</string>
